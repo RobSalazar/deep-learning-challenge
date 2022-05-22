@@ -127,10 +127,22 @@ Overall, I found this challenge to be fascinating. Optimizing higher neurons and
 ### Loss and Accuracy Figures
 
 <img src="images/acc_plot.PNG" width="325"/> <img src="images/loss_plot.PNG" width="325"/> 
+
+
 <img src="images/acc_plot2.PNG" width="325"/> <img src="images/loss_plot2.PNG" width="25"/> 
+
+
 <img src="images/acc_plot3.PNG" width="325"/> <img src="images/loss_plot3.PNG" width="325"/> 
+
+
 <img src="images/acc_plot4.PNG" width="325"/> <img src="images/loss_plot4.PNG" width="325"/> 
+
+
 <img src="images/acc_plot5.PNG" width="325"/> <img src="images/loss_plot5.PNG" width="325"/> 
+
+
 <img src="images/acc_plot6.PNG" width="325"/> <img src="images/loss_plot6.PNG" width="325"/> 
+
+
 <img src="images/acc_plot7.PNG" width="325"/> <img src="images/loss_plot7.PNG" width="325"/> 
 
