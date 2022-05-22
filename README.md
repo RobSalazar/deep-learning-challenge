@@ -125,24 +125,80 @@ Overall, I found this challenge to be fascinating. Optimizing higher neurons and
 - - -
 
 ### Loss and Accuracy Figures
-
+```
+Neurons: layer 1: 80
+         layer 2: 30
+         
+Epoch: 101         
+```
 <img src="images/acc_plot.PNG" width="325"/> <img src="images/loss_plot.PNG" width="325"/> 
 
+- - -
 
+```
+Neurons: layer 1: 100
+         layer 2: 40
+         layer 3: 25
+         
+Epoch: 250         
+```
 <img src="images/acc_plot2.PNG" width="325"/> <img src="images/loss_plot2.PNG" width="325"/> 
 
+- - -
+
+```
+Neurons: layer 1: 200
+         layer 2: 150
+         layer 3: 50
+         
+Epoch: 900         
+```
 
 <img src="images/acc_plot3.PNG" width="325"/> <img src="images/loss_plot3.PNG" width="325"/> 
 
+- - -
+
+```
+Neurons: layer 1: 500
+         layer 2: 275
+         layer 3: 150
+         
+Epoch: 2000         
+```
 
 <img src="images/acc_plot4.PNG" width="325"/> <img src="images/loss_plot4.PNG" width="325"/> 
 
+- - -
 
-<img src="images/acc_plot5.PNG" width="325"/> <img src="images/loss_plot5.PNG" width="325"/> 
+```
+Neurons: layer 1: 380
+         layer 2: 200
+         
+Epoch: 1200         
+```
 
+<img src="images/acc_plot5.PNG" width="325"/> <img src="images/loss_plot5.PNG" width="325"/>
+
+- - -
+
+```
+Neurons: layer 1: 15
+         layer 2: 60
+         
+Epoch: 15         
+```
 
 <img src="images/acc_plot6.PNG" width="325"/> <img src="images/loss_plot6.PNG" width="325"/> 
 
+- - -
+
+```
+Neurons: layer 1: 100
+         layer 2: 30
+         layer 3: 10
+         
+Epoch: 100         
+```
 
 <img src="images/acc_plot7.PNG" width="325"/> <img src="images/loss_plot7.PNG" width="325"/> 
 
