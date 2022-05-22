@@ -126,32 +126,32 @@ Overall, I found this challenge to be fascinating. Optimizing higher neurons and
 
 ### Loss and Accuracy Figures
 ```
-Neurons: layer 1: 80
-         layer 2: 30
+Neurons: layer 1: 80 ; activation: relu
+         layer 2: 30 ; activation: relu
          
-Epoch: 101         
+Epoch: 101    optimizer: adam         
 ```
 <img src="images/acc_plot.PNG" width="325"/> <img src="images/loss_plot.PNG" width="325"/> 
 
 - - -
 
 ```
-Neurons: layer 1: 100
-         layer 2: 40
-         layer 3: 25
+Neurons: layer 1: 100 ; activation: relu
+         layer 2: 40 ; activation: relu
+         layer 3: 25 ; activation: selu
          
-Epoch: 250         
+Epoch: 250    optimizer: adam         
 ```
 <img src="images/acc_plot2.PNG" width="325"/> <img src="images/loss_plot2.PNG" width="325"/> 
 
 - - -
 
 ```
-Neurons: layer 1: 200
-         layer 2: 150
-         layer 3: 50
+Neurons: layer 1: 200 ; activation: relu
+         layer 2: 150 ; activation: relu
+         layer 3: 50 ; activation: relu
          
-Epoch: 900         
+Epoch: 900    optimizer: adam         
 ```
 
 <img src="images/acc_plot3.PNG" width="325"/> <img src="images/loss_plot3.PNG" width="325"/> 
@@ -159,11 +159,11 @@ Epoch: 900
 - - -
 
 ```
-Neurons: layer 1: 500
-         layer 2: 275
-         layer 3: 150
+Neurons: layer 1: 500 ; activation: relu
+         layer 2: 275 ; activation: elu
+         layer 3: 150 ; activation: tahn
          
-Epoch: 2000         
+Epoch: 2000   optimizer: adadelta         
 ```
 
 <img src="images/acc_plot4.PNG" width="325"/> <img src="images/loss_plot4.PNG" width="325"/> 
@@ -171,10 +171,10 @@ Epoch: 2000
 - - -
 
 ```
-Neurons: layer 1: 380
-         layer 2: 200
+Neurons: layer 1: 380 ; activation: relu
+         layer 2: 200 ; activation: selu
          
-Epoch: 1200         
+Epoch: 1200   optimizer: adam        
 ```
 
 <img src="images/acc_plot5.PNG" width="325"/> <img src="images/loss_plot5.PNG" width="325"/>
@@ -182,10 +182,10 @@ Epoch: 1200
 - - -
 
 ```
-Neurons: layer 1: 15
-         layer 2: 60
+Neurons: layer 1: 15 ; activation: relu
+         layer 2: 60 ; activation: relu
          
-Epoch: 15         
+Epoch: 15   optimizer: adagrad         
 ```
 
 <img src="images/acc_plot6.PNG" width="325"/> <img src="images/loss_plot6.PNG" width="325"/> 
@@ -193,11 +193,11 @@ Epoch: 15
 - - -
 
 ```
-Neurons: layer 1: 100
-         layer 2: 30
-         layer 3: 10
+Neurons: layer 1: 100 ; activation: relu
+         layer 2: 30 ; activation: sigmoid
+         layer 3: 10 ; activation: sigmoid
          
-Epoch: 100         
+Epoch: 100    optimizer: adam         
 ```
 
 <img src="images/acc_plot7.PNG" width="325"/> <img src="images/loss_plot7.PNG" width="325"/> 
