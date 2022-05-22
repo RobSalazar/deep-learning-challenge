@@ -15,7 +15,7 @@
 <a name="summary"/>
 <a name="Loss"/>
 
-Initial [Model](notebooks/Starter_Code.ipynb) Accuracy Score: 72.9%
+Initial [Model](notebooks/Starter_Code.ipynb) Accuracy Score: 72.9% <br>
 Optimized [Model](notebooks/AlphabetSoupCharity_Optimzation4.ipynb) Accuracy Score: 78.3%
 
 ## Background
