@@ -4,6 +4,18 @@
   <img src="images/deep_learning.jpg" />
 </p>
 
+##### Table of Contents  
+- [Background](#background)  
+- [Instructions](#instructions)  
+- [Summary](#summary)
+- [Figures](#loss-and-accuracy-figures)
+   
+<a name="background"/>
+<a name="instructions"/>
+<a name="summary"/>
+<a name="Loss"/>
+
+
 ## Background
 
 The non-profit foundation Alphabet Soup wants to create an algorithm to predict whether or not applicants for funding will be successful. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
@@ -107,17 +119,18 @@ The report should contain the following:
     * <em>What steps did you take to try and increase model performance?</em><br> 
     <br>After optimizing attempts pertaining to neurons, features,  bins and optimizers I found that adding the "NAME" feature back in boosts accuracy more than 5% from the original 72.9%.
 
-3. **Summary**: Overall, I found this challenge to be fascinating. Optimizing higher neurons and higher epochs didn't seem to change much or the aaccuracy. The initial accuracy recorded was 72.9% using 80 neurons in one layer and 30 in the other. From there, after running multiple tests raising the epoch as high as 2000 and nuerons  as high as 10,000 my accuracy score stayed between 72-73.1%. This leads me to believe that increasing epochs and neurons doesnt do much if the data itself is not ideal. Optimizers like 'tahn' didnt work well either with this model and led to some of the lowest scores. I think when optimizing instead of changing metrics, like the ones mentioned above, we should really take a look and make sure that the features used are truly representing what we are trying to predict. The identifier "NAME" did not add noise in this model because the identifier allowed the algorithm to make better predictions and correlations since it added elements to the model that were not being utilized, and we need to add it to make better more optimized predictions that that were not being made in the original model. Below are 7 accuracy and loss figures from the original model and some interesting attempts at optimizing. The last set of figured are the figures for the optimization attempt that scored over 78%.
+### **Summary**
+Overall, I found this challenge to be fascinating. Optimizing higher neurons and higher epochs didn't seem to change much or the aaccuracy. The initial accuracy recorded was 72.9% using 80 neurons in one layer and 30 in the other. From there, after running multiple tests raising the epoch as high as 2000 and nuerons  as high as 10,000 my accuracy score stayed between 72-73.1%. This leads me to believe that increasing epochs and neurons doesnt do much if the data itself is not ideal. Optimizers like 'tahn' didnt work well either with this model and led to some of the lowest scores. I think when optimizing instead of changing metrics, like the ones mentioned above, we should really take a look and make sure that the features used are truly representing what we are trying to predict. The identifier "NAME" did not add noise in this model because the identifier allowed the algorithm to make better predictions and correlations since it added elements to the model that were not being utilized, and we need to add it to make better more optimized predictions that that were not being made in the original model. Below are 7 accuracy and loss figures from the original model and some interesting attempts at optimizing. The last set of figured are the figures for the optimization attempt that scored over 78%.
 
 - - -
 
 ### Loss and Accuracy Figures
 
-<img src="images/acc_plot.PNG" width="425"/> <img src="images/loss_plot.PNG" width="425"/> 
-<img src="images/acc_plot2.PNG" width="425"/> <img src="images/loss_plot2.PNG" width="425"/> 
-<img src="images/acc_plot3.PNG" width="425"/> <img src="images/loss_plot3.PNG" width="425"/> 
-<img src="images/acc_plot4.PNG" width="425"/> <img src="images/loss_plot4.PNG" width="425"/> 
-<img src="images/acc_plot5.PNG" width="425"/> <img src="images/loss_plot5.PNG" width="425"/> 
-<img src="images/acc_plot6.PNG" width="425"/> <img src="images/loss_plot6.PNG" width="425"/> 
-<img src="images/acc_plot7.PNG" width="425"/> <img src="images/loss_plot7.PNG" width="425"/> 
+<img src="images/acc_plot.PNG" width="325"/> <img src="images/loss_plot.PNG" width="325"/> 
+<img src="images/acc_plot2.PNG" width="325"/> <img src="images/loss_plot2.PNG" width="25"/> 
+<img src="images/acc_plot3.PNG" width="325"/> <img src="images/loss_plot3.PNG" width="325"/> 
+<img src="images/acc_plot4.PNG" width="325"/> <img src="images/loss_plot4.PNG" width="325"/> 
+<img src="images/acc_plot5.PNG" width="325"/> <img src="images/loss_plot5.PNG" width="325"/> 
+<img src="images/acc_plot6.PNG" width="325"/> <img src="images/loss_plot6.PNG" width="325"/> 
+<img src="images/acc_plot7.PNG" width="325"/> <img src="images/loss_plot7.PNG" width="325"/> 
 
